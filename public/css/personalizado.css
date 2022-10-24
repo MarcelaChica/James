@@ -1,0 +1,283 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  /* font-size: 62.5%;      Reset para REMS 1rem=10px */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* Eliminar subrayados de links */
+* {
+  text-decoration: none;
+}
+/* Fuente de texto global */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*---------- HOME PAGE ---------- */
+/* HEADER */
+.videoIntro {
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  object-fit: cover;
+}
+
+/* Identidad Corporativa */
+.menu1{
+  margin-bottom: 30px;
+}
+
+.slogan {
+  float: left;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  color: black;
+}
+
+.sloganTitulo{
+  font-size: 50px;
+  font-weight: 800;
+  color: black;
+}
+
+/* Inicio Sesión */
+.btnsesion {
+  float: right;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background-color: rgba(245, 245, 245, 0.174);
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:12px;
+	padding:0px 6px;
+  margin-top: 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+
+.btnsesion:hover {
+  background-color: #C8ECA4 (245, 245, 245, 0.174);
+}
+
+.btnsesion:active {
+	position:relative;
+	top:1px;
+}
+
+/* Menu Navegación */
+.menuNav {
+  margin-left: 15px;
+  margin-right: 15PX;
+}
+
+.menuNav a {
+  color: whitesmoke;
+  padding-left: 10px;
+  border-radius: 12px;
+  background-color: rgba(245, 245, 245, 0.053);
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.enlace {
+  color: black;
+}
+
+.menuNav li {
+  padding-left: 30px;
+}
+
+.menuHamb {
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+
+.form-control {
+  width: 50%;
+}
+
+.cajaBuscar {
+  margin-top: 8px;
+}
+
+.btnBuscar {
+  background-color: rgba(3, 235, 34, 0.501);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+
+
+/* ---------- ÚLTIMOS JUEGOS AÑADIDOS ---------- */
+.carousel-inner img {
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.tituloJuegosAñadidos {
+  margin-top: 70px;
+  font-size: 40px;
+  font-weight: 900;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.contenedorDestacados {
+  display: flex;
+  width: 100%;
+  height: 306px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+
+/* ---------- INTERCAMBIAR ---------- */
+.porque {
+  font-size: 30px;
+  font-weight: 900;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.intercambiar {
+  display: flex;
+  width: 100%;
+}
+
+.intercambiar h4 {
+  color: whitesmoke;
+  width: 700px;
+  text-align: justify;
+  margin-left: 150px;
+}
+
+.intercambiar img {
+  width: 400px;
+  height: 600px;
+  margin-left: 40px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.parrafo {
+  width: 80%;
+  background-color: black;
+  opacity: 0.5;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.t1{
+  margin-top: 30px;
+}
+
+.intercambiar p {
+  color: whitesmoke;
+  width: 700px;
+  text-align: justify;
+  margin-left: 100px;
+  
+}
+
+hr {
+  width: 200px;
+  margin-left: 100px;
+}
+
+
+
+
+
+  /* ---------- FOOTER ---------- */
+  footer {
+    background-color: rgba(247, 241, 241, 0.938);
+    margin-top: 20px;
+    padding: 50px;
+  }
+
+
+
+/* ---------- LOGIN PAGE ---------- */
+
+/* Formulario Login */
+.gradient-custom-2 {
+  background: rgba(13,0,153,1);
+  background: -moz-linear-gradient(left, rgba(13,0,153,1) 0%, rgba(18,0,133,0.72) 100%);
+  background: -webkit-linear-gradient(left, rgba(13,0,153,1) 0%, rgba(18,0,133,0.72) 100%);
+  background: -o-linear-gradient(left, rgba(13,0,153,1) 0%, rgba(18,0,133,0.72) 100%);
+  background: -ms-linear-gradient(left, rgba(13,0,153,1) 0%, rgba(18,0,133,0.72) 100%);
+  background: linear-gradient(to right, rgba(13,0,153,1) 0%, rgba(18,0,133,0.72) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0099', endColorstr='#120085', GradientType=1 );
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  }
+
+ 
+
+  
+/* ---------- CONTACTO PAGE ---------- */
+
+/* Formulario Contacto */
+.contenedorFormularioContacto {
+  background-color: #283966;
+  margin-top: 50px;
+}
+
+
+  .form-group {
+    margin-top: 20px;
+  }
+
+  .tituloFormularioContacto {
+    color: whitesmoke;
+    font-size: 50px; 
+  }
+
+
+
+
+
+
+/* ---------- REGISTRO PAGE ---------- */
+  .btnregistrarse {
+    margin-top: 10px;
+  }
