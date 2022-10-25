@@ -6,8 +6,8 @@
 				<div class="card-header">
 					<div style="display: flex; justify-content: space-between; align-items: center;">
 						<div class="float-left">
-							<h4><i class="fab fa-laravel text-info"></i>
-							Teacher Listing </h4>
+							<h4><i class="fab fa-laravel text-info"></i> //cambio de icono//
+							{{ __('Teacher Listing') }} </h4>
 						</div>
 						<div wire:poll.60s>
 							<code><h5>{{ now()->format('H:i:s') }} UTC</h5></code>
@@ -16,10 +16,10 @@
 						<div wire:poll.4s class="btn btn-sm btn-success" style="margin-top:0px; margin-bottom:0px;"> {{ session('message') }} </div>
 						@endif
 						<div>
-							<input wire:model='keyWord' type="text" class="form-control" name="search" id="search" placeholder="Search Teachers">
+							<input wire:model='keyWord' type="text" class="form-control" name="search" id="search" placeholder="{{ __('Search Teachers')}}">
 						</div>
 						<div class="btn btn-sm btn-info" data-toggle="modal" data-target="#createDataModal">
-						<i class="fa fa-plus"></i>  Add Teachers
+						<i class="fa fa-plus"></i>  {{__('Add Teachers')}}
 						</div>
 					</div>
 				</div>

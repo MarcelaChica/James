@@ -42,6 +42,9 @@ class Teachers extends Component
     public function store()
     {
         $this->validate([
+            'name' => 'required|min:3',
+            'lastname' => 'required|min:3',
+            'document' => 'required|min:7',
         ]);
 
         Teacher::create([ 

@@ -52,7 +52,10 @@
     "Addition User" : "Añadir usuario",
     "Edit User" : "Editar usuario",
     "Delete User" : "Eliminar usuario",
-    "Email" : "Correo electrónico"
+    "Email" : "Correo electrónico",
+    "Add Teachers": "Añadir profesor",
+    "Search Teachers": "Buscar profesor",
+    "Teacher Listing": "Listado de profesores"
 
 
     
