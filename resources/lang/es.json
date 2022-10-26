@@ -55,7 +55,50 @@
     "Email" : "Correo electrónico",
     "Add Teachers": "Añadir profesor",
     "Search Teachers": "Buscar profesor",
-    "Teacher Listing": "Listado de profesores"
+    "Teacher Listing": "Listado de profesores",
+    "ACTIONS": "ACCIONES",
+    "Actions": "Acciones",
+    "Edit": "Editar",
+    "Delete": "Eliminar",
+    "Create New Teacher": "Crear nuevo profesor",
+    "Close": "Cerrar",
+    "Save": "Guardar",
+    "Search Users": "Buscar usuarios",
+    "Add Users": "Añadir usuarios",
+    "Create New User": "Crear nuevo usuario",
+    "Enrollment Listing": "Listado de inscripciones",
+    "Search Enrollments": "Buscar inscripciones",
+    "Add Enrollments": "Añadir inscripciones",
+    "Create New Enrollment": "Crear nueva inscripción",
+    "Id Client": "Id cliente",
+    "Id Package": "Id paquete",
+    "Id Teacher": "Id profesor",
+    "Id Booking": "Id reserva",
+    "Id User": "Id usuario",
+    "Id": "Id",
+    "State": "Estado",
+    "Date": "Fecha",
+    "Start": "Inicio",
+    "End": "Fin",
+    "Price": "Precio",
+    "Num Classes": "Número de clases",
+    "Num Class": "Número de clase",
+    "Create New enrollment": "Crear nueva matrícula",
+    "Package Listing": "Listado de paquetes",
+    "Add Packages": "Añadir paquetes",
+    "Search Packages": "Buscar paquetes",
+    "Create New Package": "Crear nuevo paquete",
+    "Booking Listing": "Listado de reservas",
+    "Add Bookings": "Añadir reservas",
+    "Search Bookings": "Buscar reservas",
+    "Create New Booking": "Crear nueva reserva",
+    "Address": "Dirección"
+    
+
+    
+
+    
+    
 
 
     
