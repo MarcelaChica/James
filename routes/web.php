@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -34,10 +35,14 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 //Route Hooks - Do not delete//
-	Route::view('users', 'livewire.users.index')->middleware('auth');
+
+
+    Route::view('users', 'livewire.users.index')->middleware('auth');
 	Route::view('enrollments', 'livewire.enrollments.index')->middleware('auth');
 	Route::view('bookings', 'livewire.bookings.index')->middleware('auth');
 	Route::view('teachers', 'livewire.teachers.index')->middleware('auth');
 	Route::view('packages', 'livewire.packages.index')->middleware('auth');
 	Route::view('clients', 'livewire.clients.index')->middleware('auth');
+
+	
 

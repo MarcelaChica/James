@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('document',20);
             $table->string('phone',20);
             $table->date('birthday');
+            $table->boolean('is_admin')->default(false);
             $table->timestamp('email_verified_at')->nullable();
             $table->rememberToken();
             $table->timestamps();

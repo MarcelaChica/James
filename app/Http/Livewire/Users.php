@@ -56,13 +56,16 @@ class Users extends Component
 		'birthday' => 'required',
         ]);
 
+        $this-> is_admin = 1;
+
         User::create([ 
 			'email' => $this-> email,
 			'name' => $this-> name,
 			'lastname' => $this-> lastname,
 			'document' => $this-> document,
 			'phone' => $this-> phone,
-			'birthday' => $this-> birthday
+			'birthday' => $this-> birthday,
+            'is_admin' => $this-> is_admin
         ]);
         
         $this->resetInput();
